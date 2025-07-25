@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto Web Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navegação -->
+  <nav class="menu">
+    <div class="container">
+      <a href="index.html" class="logo">Eduarda<span class="logo-highlight">Web</span></a>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Cabeçalho -->
+  <header class="hero">
+    <div class="container hero-content">
+      <h1>Bem-vindo(a)!</h1>
+      <p>Explore este site simples que fiz para o curso de Dev Full-Stack.</p>
+      <div class="btn-group">
+        <a href="#missao" class="btn">Missão</a>
+        <a href="#visao" class="btn btn-secundario">Visão</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+  <section id="missao">
+    <h2>Missão</h2>
+    <p class="texto-normal">Compartilhar conhecimento com simplicidade e estilo.</p>
+  </section>
+
+ <section id="visao">
+    <h2>Visão</h2>
+    <p class="texto-normal">Criar experiências e aprendizados.</p>
+  </section>
+</main>
+
+    <section class="galeria-container section-fade">
+      <h2>Galeria de Inspiração</h2>
+      <div class="galeria">
+        <figure><img src="imagens/images.jpeg" alt="Imagem 1" loading="lazy"><figcaption>Imagem 1</figcaption></figure>
+        <figure><img src="imagens/taison.jpg" alt="Imagem 2" loading="lazy"><figcaption>Imagem 2</figcaption></figure>
+        <figure><img src="imagens/hero.png" alt="Imagem 3" loading="lazy"><figcaption>Imagem 3</figcaption></figure>
+        <figure><img src="imagens/fotosestudantes.jpg" alt="Imagem 4" loading="lazy"><figcaption>Imagem 4</figcaption></figure>
+        <figure><img src="imagens/fotointer.jpg" alt="Imagem 5" loading="lazy"><figcaption>Imagem 5</figcaption></figure>
+        <figure><img src="imagens/taison2.jpeg" alt="Imagem 6" loading="lazy"><figcaption>Imagem 6</figcaption></figure>
+        <figure><img src="imagens/fotocafe.jpg" alt="Imagem 7" loading="lazy"><figcaption>Imagem 7</figcaption></figure>
+        <figure><img src="imagens/fotocoding.jpg" alt="Imagem 8" loading="lazy"><figcaption>Imagem 8</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eduarda. Desenvolvido com <span class="heart">♥</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
